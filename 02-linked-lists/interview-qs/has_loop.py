@@ -31,8 +31,6 @@ class LinkedList:
             fast = fast.next.next
             if slow == fast:
                 return True
-            else:
-                continue
             
         return False
     
